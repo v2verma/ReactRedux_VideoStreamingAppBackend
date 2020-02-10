@@ -1,0 +1,14 @@
+{
+	"name": "apiserver",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "json-server -p 8000 -w db.json"
+	},
+	"author": "vivek kr verma",
+	"license": "ISC",
+	"dependencies": {
+		"json-server": "^0.15.1"
+	}
+}
